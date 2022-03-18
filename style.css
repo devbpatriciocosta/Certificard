@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,700&display=swap");
+
+body {
+  background: linear-gradient(246.85deg, #fcbe11 7.26%, #000000 76.03%);
+  font-family: "Asap", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 25px;
+  box-shadow: 24px 24px 24px #0e1d2f;
+  padding: 74px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 900px;
+  max-height: 180px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 500px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #ecff4d 27.49%, #eaf39a 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 25px;
+  box-shadow: 24px 24px 24px #0e1d2f;
+}
+
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #191a16 27.26%, #4d4c3f 96.03%);
+}
+
+.dark .container {
+  background: #191a16;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #f6f6f6;
+  border: 2px solid #f7f7f7;
+}
